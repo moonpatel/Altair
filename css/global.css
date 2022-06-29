@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+
+body {
+    width: 100%;
+    min-width: 1000px;
+}
+
+div, nav, section, header, footer {
+    width: 100%;
+}
+
+nav {
+    margin: 0em auto;
+    height: fit-content;
+    background-color: #0000005b;
+    color: white;
+    position: fixed;
+    display: flex;
+    z-index: 10;
+}
+
+.scroll-active {
+    background-color: rgb(32, 32, 32);
+}
+
+nav img,footer img {
+    height: 6vh;
+    width: auto;
+    margin: 1em 6em;
+    display: inline-block;
+}
+
+nav ul {
+    text-transform: uppercase;
+    margin-left: 400px;
+    font-size: 16.5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 36%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav a {
+    display: inline-block;
+    padding: 1em 0.8em;
+    transition: 0.3s;
+}
+nav a:hover {
+    background-color: rgb(206, 206, 206);
+    color: rgb(34, 34, 34);
+}
+
+/*=================== welcome image ===================*/
+#welcome {
+    /* background-image: url("../images/welcome1.jpg"); */
+    background-position: bottom;
+    background-size: cover;
+    color: white;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+#destinations #nav-cards {
+    margin: 3em 0em;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
+#destinations #nav-cards .card {
+    width: 27%;
+    height: 400px;
+    min-width: 300px;
+    background-image: url("../images/welcome1.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+    margin: 2em 0em;
+}
+#destinations #nav-cards .desc {
+    background-color: rgba(255, 255, 255, 0.705);
+    text-align: left;
+    width: fit-content;
+    position: absolute;
+    left: 0; bottom: 0px;
+    padding: 1.5em 1em;
+    margin: 0.6em;
+    border-radius: 20px;
+}
+#destinations #nav-cards div h3 {
+    margin: 0.3em 0em;
+    color: #001c3b;
+    text-transform: uppercase;
+    font-size: 150%;
+    font-weight: 1000;
+    letter-spacing: 1px;
+}
+#destinations #nav-cards div p:nth-child(1) {
+    padding-bottom: 0.3em;
+    color: rgb(64, 136, 219);
+    font-size: 90%;
+}
+#destinations #nav-cards div p:nth-child(3) {
+    color: #4b4b4b;
+    font-size: 95%;
+}
+
+footer {
+    height: 40vh;
+    background-color: rgb(31, 31, 31);
+}
+
+footer #description {
+    background-color: aquamarine;
+    width: 30%;
+    padding: 1em;
+}

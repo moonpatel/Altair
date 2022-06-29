@@ -1,0 +1,8 @@
+#welcome {
+    background-color: rgba(0, 0, 0, 0.315);
+}
+
+#welcome h1 {
+    font-size: 75px;
+    margin: 0 auto;
+}
