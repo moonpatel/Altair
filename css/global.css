@@ -85,8 +85,8 @@ nav a:hover {
     flex-wrap: wrap;
 }
 #destinations #nav-cards .card {
-    width: 27%;
-    height: 400px;
+    width: 30%;
+    height: 500px;
     min-width: 300px;
     background-image: url("../images/welcome1.jpg");
     background-size: cover;
@@ -95,13 +95,13 @@ nav a:hover {
     margin: 2em 0em;
 }
 #destinations #nav-cards .desc {
-    background-color: rgba(255, 255, 255, 0.705);
+    background-color: rgba(255, 255, 255, 0.637);
     text-align: left;
     width: fit-content;
     position: absolute;
     left: 0; bottom: 0px;
     padding: 1.5em 1em;
-    margin: 0.6em;
+    margin: 0.9em;
     border-radius: 20px;
 }
 #destinations #nav-cards div h3 {
