@@ -31,10 +31,6 @@ nav {
     z-index: 10;
 }
 
-.scroll-active {
-    background-color: rgb(32, 32, 32);
-}
-
 nav img,footer img {
     height: 30px;
     width: auto;
@@ -73,16 +69,15 @@ nav .signinup {
     color: white;
     margin: auto 1em;
     height: 30px;
-    padding: 0.6em 1.2em;
+    padding: 0.5em 1.2em 1em 1.2em;
     border-radius: 20px;
     text-decoration: none;
     text-align: center;
-    font-size: 90%;
+    font-size: 13px;
 }
 
 /*=================== welcome image ===================*/
 #welcome {
-    /* background-image: url("../images/welcome1.jpg"); */
     background-position: bottom;
     background-size: cover;
     color: white;
