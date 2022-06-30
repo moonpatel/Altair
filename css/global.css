@@ -36,19 +36,23 @@ nav {
 }
 
 nav img,footer img {
-    height: 6vh;
+    height: 30px;
     width: auto;
-    margin: 1em 6em;
+    margin: 1em auto;
     display: inline-block;
+}
+nav img {
+    position: relative;
+    right: 10%;
 }
 
 nav ul {
     text-transform: uppercase;
-    margin-left: 400px;
-    font-size: 16.5px;
-    font-weight: bold;
+    margin-left: 0px;
+    font-size: 14px;
+    font-weight: normal;
     letter-spacing: 1px;
-    width: 36%;
+    width: 50%;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
@@ -62,6 +66,18 @@ nav a {
 nav a:hover {
     background-color: rgb(206, 206, 206);
     color: rgb(34, 34, 34);
+}
+nav .signinup {
+    display: inline-block;
+    background-color: rgb(47, 124, 224);
+    color: white;
+    margin: auto 1em;
+    height: 30px;
+    padding: 0.6em 1.2em;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 90%;
 }
 
 /*=================== welcome image ===================*/
@@ -123,12 +139,57 @@ nav a:hover {
 }
 
 footer {
-    height: 40vh;
+    height: fit-content;
     background-color: rgb(31, 31, 31);
+    padding: 1em 4em;
+    color: rgb(199, 199, 199);
+}
+
+.part1, .part2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
 
 footer #description {
-    background-color: aquamarine;
-    width: 30%;
+    width: 36%;
     padding: 1em;
+}
+footer div {
+    margin: 2em 2.5em;
+}
+footer h2 {
+    margin: 0 auto 1em auto
+}
+footer p {
+    margin: 0.5em auto;
+}
+footer .tags {
+    width: 40%;
+    margin-left: 0em;
+}
+footer .tags div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 1em 1em 0em;
+}
+footer button {
+    color: white;
+    margin: 1em;
+    padding: 1em;
+    border: solid 1px white;
+    background-color: rgba(255, 255, 255, 0);
+}
+.centered-elem {
+    display: block;
+    margin: 0 auto;
+}
+footer .part2 {
+    margin: 1em 1em ;
+    border-top: solid 1px #636363;
+}
+footer .part2 .copyright {
+    width: 50%;
 }
